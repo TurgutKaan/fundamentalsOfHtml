@@ -1,0 +1,19 @@
+a {
+  color: red;
+  text-decoration: underline;
+}
+
+h2 {
+  font-family: "Segoe UI";
+}
+
+h3 {
+  font-family: initial;
+  margin-left: 20px;
+}
+
+img { 
+  
+  height: 1000px;
+
+}

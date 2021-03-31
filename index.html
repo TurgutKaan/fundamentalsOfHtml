@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BEŞİKTAŞ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  Headingler [h1], [h2], [h3], [h4], [h5], [h6]
+
+      <h1> HTML Temelleri (Heading1) </h1>
+      <h2>Heading2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+      <h5>Heading 5</h5>
+      <h6>Heading 6</h6>
+
+    <p> Cümle içerisinde <em>farklı vurguda</em> kelime kullanma.[(em) ile oluyor]</p>
+    <p>Bir başka <strong>vurguda</strong> kelime kullanma. [(strong) ile oluyor]</p>
+
+    -liste yapma
+    -liste sırası2 Bu şekilde olmama sebebi [br] kullanmamak. <br>
+
+<br> <br> 
+
+[br yani break kullanmak satır bıraktırıyor her satır için boşluk olarak da kullanılabilir.]
+ 
+<br> <br> 
+
+    -Liste satır 1 <br>
+    -Liste satır 2
+
+<br> <br>
+
+Bunun yerine [ul] unordered list kullanılıyor. Bunun içerisinde ise [li] kullanılıyor.<br>
+Parent child ilişkisi. Her liste satırı için yeniden [li] kullanmak gerekiyor.
+
+<ul>
+
+  <li> Satır 1 </li>
+  <li> Satır 2</li>
+  <li>Satır 3</li>
+  <li>Satır N :)</li>
+
+</ul>
+
+<br><br>
+
+<strong> NOT :</strong>Alt+F3 birden fazla cursor çıkartıyor. [strong] ile yaptık çünkü [hn] şeklinde olursa diğer cümle alt satırdan başlıyor. <br><br>
+
+Sıralı bir liste olmasını istiyorsak parent olarak [ol] yani order list kullanıyoruz.<br><br>
+
+<ol>
+
+<li> Sıralı liste satır bir.</li>
+<li>Sıralı liste satır iki</li>
+<li>sıralı liste satır N :)</li>
+
+</ol>
+
+
+[dl] definition list, [dt] definition term ve [dd] definition details ise aşağıdaki gibi bir görüntü oluşturuyor.<br>
+Sırası ile [dl] [dt] ve [dd] şeklinde kullanılıyor parent child ilişkisi var. <br>
+
+  <dl>
+
+    <dt> Definition List'in içindeki Definition term :</dt>
+     <dd> Definition List içindeki Definition Details.</dd>
+    <dt>2. Definition List'in içindeki Definition term :</dt>
+     <dd>2. Definition List içindeki Definition Details.</dd>
+   <dt>3. Definition List'in içindeki Definition term :</dt>
+    <dd>3. Definition List içindeki Definition Details.</dd>
+
+  </dl>
+
+<br>
+[ul] , [ol] altında çocuğu olan [li] ister.<br><br>
+[dl] altında çocukları olan [dt] ve [dl] ister. Best practice budur.<br><br>
+
+<h4>Cümle içindeki tek bir kelimeyi farklı renkte yazma</h4>
+[span] ile oluyor. İstediğimiz kelimeyi [span] içerisinde yazınca css kısmında [span] i değiştir diyebiliyoruz.<br>
+
+<br>
+
+<h4>[blockquote] kullanmak aşağıdaki gibi oluyor.</h4>
+Normal bile yazılsa yazı [blockquote] kullanılınca içeri alıyor yazıyı, içerisinde
+istediğin gibi yzı tipi tanımlayabiliyorsun aşağıda [em] kullanılmıştır;
+<blockquote>
+ <em>Bir takım ol. Mesela Beşiktaş gibi. De ki; Şerefim bitene kadar seveceğim seni</em>
+</blockquote>
+
+<h4>Link vermek için kullanılan işaret [a] içerisinde > işaretinin içinde kalacak şekilde [href=""] yazılması ve > şekliyle kapatılması</h4>
+
+<p>Alemin kralının web sitesi &rarr; <a href="https://www.bjk.com.tr"> ALEMİN KRALI </a> </p>
+
+Verilen linkin yeni sayfada açılmasını istiyorsak yine [a] içinde href'ten sonra target="_blank" yazmak gerekiyor.
+
+<p> <a href="https://www.bjk.com.tr" target="_blank" > MİLYONLARIN GÖZ BEBEĞİ DORUKLARIN ŞANLI BEŞİKTAŞI</a></p>
+
+<h4> Aynı dosya içinde başka html dosyası açıp link vermek;</h4>
+
+<p> <a href="hakkımdaKlasörü/hakkımda.html"> Başka html</a></p>
+
+<h4> [style] ekleme yazıya renk olarak :color seçip yine [a] içinde  &rarr; </h4> 
+
+<p> Yazının <a style="color:red" > burasını renkli yapıyoruz.</a> </p>
+
+<h4> Ufaktan css e geçiyoruz. &rarr;</h4>
+
+<a>Css e yazdıklarımızı tüm [a] içerisindekilere uygulaması için kod yazdık.</a>
+
+<h4> H2 ye style ekleme &rarr;</h4>
+
+<h2> Font falan ekleyeceğiz (segoe uı)</h2>
+
+<h4> İmaj eklemek içinklasörümüzün içine image klasörü açıyoruz akabinde resimleri bu dosyanın içine koyuyoruz 
+src açıp " içinde" imajı seçiyoruz, bulunamaması durumuna karşı alternatif yaratıyoruz.
+</h4>
+
+<img src="/img/kartal.jpg" alt="KARAKARTAL" />
+
+<h4> Margin spacing sağlar [h3] için margin ekleyeceğiz. &rarr; </h4>
+
+<h3> Soldan sağdan boşluk bırakacağız css e margin-leftright falan yazarak
+  uzunluk px olacak
+</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
