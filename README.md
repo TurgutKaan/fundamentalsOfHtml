@@ -2,4 +2,4 @@
 
 Some properties of html and css 
 
-Come back ater almost a year.
+Come back after almost a year.
